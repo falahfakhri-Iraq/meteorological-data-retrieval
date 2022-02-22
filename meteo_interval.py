@@ -83,7 +83,7 @@ def meto_inter_time(staton_id, data):
         print('Skipping...')
         
         print('Check out data on the screen\n\n', data)
-       #return data
+       
             
     elif(answer == 'Y' or answer == 'y'):
         
