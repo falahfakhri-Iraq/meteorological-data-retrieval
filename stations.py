@@ -30,7 +30,7 @@ D:/test/*.file
 Please have a look at the example!
 ===================================================================================================
 """
-
+# Import Meteostat library and dependencies
 try:
     from meteostat import Stations
     import pandas as pd
@@ -74,8 +74,7 @@ def station_meteo_data():
         print('An overview of nearby meteorological stations :\n\n',station)
         
     elif(answer == 'Y' or answer == 'y'):
-        
-        
+                
         df = pd.DataFrame(station)
         
         user_input = input('Enter the path of your file with an extention *.csv: ')
