@@ -23,6 +23,7 @@ D:/test/*.file
 Please have a look at the example!
 ===================================================================================================
 """
+# Import Meteostat library and dependencies
 try:
     from datetime import datetime
     from meteostat import Hourly, Daily, Monthly
@@ -39,8 +40,6 @@ except ModuleNotFoundError:
     sys.exit()
 else:
     print(colored('\nAll libraries properly loaded. Ready to start!!!', 'green'), '\n')   
-# Import Meteostat library and dependencies
-
 
 def meto_inter_time(staton_id, data):
     
